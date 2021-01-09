@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="343.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oolong.view.monitor.LogInReg">
+   <children>
+      <GridPane prefHeight="343.0" prefWidth="543.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <GridPane prefHeight="243.0" prefWidth="430.0" GridPane.rowIndex="1">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="160.0" minHeight="10.0" prefHeight="81.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="80.0" minHeight="0.0" prefHeight="79.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="Register1" layoutX="375.0" mnemonicParsing="false" onAction="#register" prefHeight="23.0" prefWidth="87.0" style="-fx-background-radius: 100;" text="注册账号" textFill="#2d6ec3" />
+                        <TextField fx:id="account2" layoutX="173.0" onAction="#account2" style="-fx-background-radius: 100;" />
+                        <PasswordField fx:id="password2" layoutX="173.0" layoutY="41.0" onAction="#password2" style="-fx-background-radius: 100;" />
+                        <Label layoutX="128.0" layoutY="5.0" text="账号：" />
+                        <Label layoutX="128.0" layoutY="46.0" text="密码：" />
+                        <Button fx:id="ftpassword" alignment="CENTER" layoutX="375.0" layoutY="41.0" mnemonicParsing="false" onAction="#ftpassword" prefHeight="30.0" prefWidth="87.0" style="-fx-background-radius: 100;" text="忘记密码" textFill="#175ae1" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="121.0" prefWidth="479.0" GridPane.rowIndex="1">
+                     <children>
+                        <Button fx:id="Login" layoutX="155.0" layoutY="-7.0" mnemonicParsing="false" onAction="#login" prefHeight="43.0" prefWidth="233.0" text="登录" textFill="#070707" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+            <AnchorPane prefHeight="120.0" prefWidth="231.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="150.0" layoutY="63.0" prefHeight="79.0" prefWidth="243.0" text="欢迎登录" textFill="#49b960">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <MenuBar fx:id="menubar" layoutY="-2.0" prefHeight="32.0" prefWidth="543.0">
+                    <menus>
+                      <Menu fx:id="file" mnemonicParsing="false" text="File">
+                        <items>
+                          <MenuItem fx:id="close" mnemonicParsing="false" text="Close" />
+                        </items>
+                      </Menu>
+                      <Menu fx:id="edit" mnemonicParsing="false" text="Edit">
+                        <items>
+                          <MenuItem fx:id="delete" mnemonicParsing="false" text="Delete" />
+                        </items>
+                      </Menu>
+                      <Menu fx:id="help" mnemonicParsing="false" text="Help">
+                        <items>
+                          <MenuItem fx:id="about" mnemonicParsing="false" text="About" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

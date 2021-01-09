@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.oolong.view.monitor.Customers</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">javafx.fxml.Initializable</node>
+    <node x="0.0" y="105.0">com.oolong.view.monitor.Customers</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.oolong.view.monitor.Customers" target="javafx.fxml.Initializable">
+      <point x="0.0" y="-304.0" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5252387448840382" x="129.0" y="356.5" />
+  <SelectedNodes>
+    <node>com.oolong.view.monitor.Customers</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>字段</Category>
+    <Category>构造函数</Category>
+    <Category>方法</Category>
+    <Category>属性</Category>
+    <Category>内部类</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

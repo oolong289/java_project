@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="263.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oolong.view.monitor.Record">
+   <children>
+      <TableView fx:id="tableview123" layoutY="-2.0" prefHeight="291.0" prefWidth="417.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="138.0" text="id" />
+          <TableColumn fx:id="account" prefWidth="118.0" text="account" />
+            <TableColumn fx:id="price" prefWidth="160.0" text="price" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
